@@ -1,0 +1,82 @@
+# ============================================================
+# .gitignore — CMOS Inverter Characterization
+# ============================================================
+
+# Operating system files
+.DS_Store
+._*
+Thumbs.db
+desktop.ini
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python cache and environment files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+ENV/
+.ipynb_checkpoints/
+
+# MATLAB generated files
+*.asv
+*.m~
+*.mat
+*.fig
+
+# PSpice / OrCAD generated and backup files
+*.out
+*.dat
+*.log
+*.err
+*.sim
+*.stl
+*.prb
+*.als
+*.net
+*.mrk
+*.mru
+*.jrl
+*.jrl.*
+*.obj
+*.obj.*
+*.tmp
+*.opj.bak
+*.dsn.bak
+*.sch.bak
+*.olb.bak
+*.cir.bak
+*.DBK
+*.dbk
+*.OBK
+*.obk
+
+# PSpice waveform and probe data
+*.probe
+*.pspice
+*.raw
+
+# Build / export temporary folders
+tmp/
+temp/
+.cache/
+
+# Large or local-only exports
+exports/
+local_outputs/
+
+# Personal / local-only folders
+private/
+local/
+personal/
+
+# Proprietary or licensed SPICE model files
+# Do not commit these unless redistribution is allowed by the model license.
+*.spi
+*.lib
