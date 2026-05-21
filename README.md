@@ -2,6 +2,18 @@
 
 A hardware and simulation-based characterization project of a CMOS inverter using discrete MOSFETs. The inverter was implemented on a breadboard, experimentally tested using a 5 V supply, and simulated in PSpice to verify the voltage transfer characteristic (VTC).
 
+## Demonstration Video
+
+A short video demonstrating the hardware setup and the CMOS inverter switching behavior is available here:
+
+**▶ [Watch the project demonstration](https://youtu.be/BmHOWdDQZPM)**
+
+You can also scan the QR code below to open the video on a mobile device:
+
+<p align="center">
+  <img src="docs/demo_video_qr.png" alt="QR code linking to the project demonstration video" width="180">
+</p>
+
 ## Project Overview
 
 The purpose of this project is to study the operation of a CMOS inverter and observe how the output voltage changes with input voltage. The circuit uses a complementary PMOS-NMOS structure where the common gate node acts as the input and the common drain node acts as the output.
@@ -85,6 +97,7 @@ cmos-inverter-characterization/
 │   └── experimental_vtc_curve.png
 │
 └── docs/
+    ├── demo_video_qr.png
     └── references.md
 ```
 
